@@ -1,0 +1,29 @@
+{
+  "name": "nereo",
+  "version": "1.0.0",
+  "description": "Make images, videos, music and edits with Nereo from Codex.",
+  "author": {
+    "name": "Nereo",
+    "url": "https://www.nereo.io"
+  },
+  "homepage": "https://www.nereo.io/plugin",
+  "repository": "https://github.com/nereo-io/marketplace",
+  "interface": {
+    "displayName": "Nereo",
+    "shortDescription": "Images, videos and audio on your Nereo canvas",
+    "longDescription": "Create with Nereo without leaving Codex. Describe what you want, or start from a script or a reference image, and Codex builds it on your Nereo canvas: text-to-image and image editing, text-to-video and image-to-video across Veo 3, Seedance, Kling and other models, music, voiceover and sound, and multi-shot edits that cut your clips into one film. Codex tells you what each run costs in credits before it starts, waits for the results and shows them in the chat; the canvas stays open for you to keep editing on the website. Connect your Nereo account to begin.",
+    "developerName": "Nereo",
+    "category": "Creativity",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "brandColor": "#2A8DEA",
+    "websiteURL": "https://www.nereo.io",
+    "logo": "./assets/nereo-icon.png",
+    "composerIcon": "./assets/nereo-icon.png",
+    "defaultPrompt": [
+      "Show my Nereo projects",
+      "Make an 8-second product video from this photo with Nereo",
+      "Write a 30-second story and turn it into a multi-shot video on my Nereo canvas"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
